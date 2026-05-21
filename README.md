@@ -198,6 +198,6 @@ aws-iam-security-architecture/
 
 ## 🔗 Project Links
 
-Medium Article: (add link here)
+Medium Article: https://medium.com/p/85205bf590c6?postPublishedType=initial
 
 GitHub Repo: (current repo link)
