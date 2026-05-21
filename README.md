@@ -200,4 +200,4 @@ aws-iam-security-architecture/
 
 Medium Article: https://medium.com/p/85205bf590c6?postPublishedType=initial
 
-GitHub Repo: (current repo link)
+GitHub Repo: https://github.com/JohnnyLouisTech/AWS-IAM-Security-Project/tree/main
