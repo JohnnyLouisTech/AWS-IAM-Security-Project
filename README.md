@@ -37,5 +37,30 @@ Monitoring Layer: CloudTrail + CloudWatch + SNS
 
 All activity flows through AWS services and is logged for auditing and alerting.
 
-##🖼 Architecture Diagram
+## 🖼 Architecture Diagram
+
 <img width="1225" height="455" alt="root_image" src="https://github.com/user-attachments/assets/f1104ff1-ec8f-419d-9c6b-9145ee50f957" />
+
+## 🔐 IAM Policies (Least Privilege)
+
+This project includes custom IAM policies designed to restrict access based on job function.
+
+# S3 Read-Only Policy
+
+Allows viewing S3 buckets and objects
+
+Prevents upload, delete, or modification
+
+# EC2 Restricted Policy
+
+Allows describing EC2 instances
+
+Denies stopping, terminating, or rebooting instances
+
+# Admin Scoped Policy
+
+Provides administrative access
+
+Explicitly restricts billing-related permissions
+
+These policies demonstrate controlled access and security segmentation.
